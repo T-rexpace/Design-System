@@ -1,0 +1,17 @@
+@import './Globales.scss';
+@import './tokens/colors.scss';
+@import './tokens/typos.scss';
+@import './tokens/spacing.scss';
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: $Font-principal;
+    font-size: $Font-parrafo;
+    color: $Color-Grayscale-1;
+    background-color: $Color-Prymary;
+}
+.footer p {
+    margin: $Spacing-Normal;
+}

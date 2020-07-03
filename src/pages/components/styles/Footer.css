@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+.hr {
+  border: 2px solid #1e0f33;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 24px;
+  color: #fff;
+  background-color: #1e0f33;
+}
+
+.footer p {
+  margin: 30px;
+}
