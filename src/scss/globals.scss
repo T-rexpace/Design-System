@@ -1,0 +1,23 @@
+@import './tokens/colors.scss';
+@import './tokens/typos.scss';
+@import './tokens/spacing.scss';
+
+body {
+  margin: 0;
+  font-family: $Font;
+}
+.hr {
+  border: 2px solid $Color-Primary;
+  margin: $Spacing-ExtraSmall 0 $Spacing-Normal;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@mixin btn-size {
+  padding: 5px 20px;
+  margin: $Spacing-Normal;
+  font-size: $Font-Paragraph;
+  border-radius: 20px;
+}

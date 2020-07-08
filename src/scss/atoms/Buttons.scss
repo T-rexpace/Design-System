@@ -1,0 +1,49 @@
+@import '../globals.scss';
+@import '../tokens/colors.scss';
+@import '../tokens/typos.scss';
+@import '../tokens/spacing.scss';
+@import '../vendors/grid.scss';
+
+%containerBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.containerButtons {
+    display: flex;
+    @extend .wrapper;
+    font-family: $Font;
+}
+
+.containerButtons__normal {
+    @extend %containerBtn;
+}
+
+.containerButtons__active {
+    @extend %containerBtn;
+}
+
+.containerButtons__disable {
+    @extend %containerBtn;
+}
+
+.btn-normal {
+    @include btn-size;
+    background: $Gradient;
+    color: $Color-Grayscale-1;
+    border: none;
+}
+
+.btn__normal-transparent {
+    background: transparent;
+    color: $Color-Secondary;
+    border: 2px solid $Color-Secondary;
+    border-radius: 20px;
+}
+
+.btn__disable {
+    background: $Color-Grayscale-2;
+}
