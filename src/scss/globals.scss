@@ -4,15 +4,33 @@
 
 body {
   margin: 0;
-  font-family: $Font;
 }
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 .hr {
   border: 2px solid $Color-Primary;
   margin: $Spacing-ExtraSmall 0 $Spacing-Normal;
 }
+
 .container {
   width: 90%;
   margin: 0 auto;
+}
+
+.mb-1 {
+  margin-bottom: $Spacing-ExtraSmall;
+}
+
+.mb-2 {
+  margin-bottom: $Spacing-Small;
 }
 
 @mixin btn-size {

@@ -1,0 +1,24 @@
+@import '../globals.scss';
+@import '../tokens/colors.scss';
+@import '../tokens/typos.scss';
+@import '../tokens/spacing.scss';
+@import '../vendors/grid.scss';
+@import '../foundations/fonts.scss';
+
+.Sidebar {
+  padding: $Spacing-Large $Spacing-Normal;
+  color: #ffffff;
+  background-color: $Color-Primary-Light-1;
+}
+
+.Sidebar__logo {
+  padding: $Spacing-Normal 0;
+}
+
+.Sidebar__design-system {
+  padding: $Spacing-Normal 0;
+}
+
+.Sidebar__design-system h3 {
+  margin-bottom: $Spacing-Normal;
+}
