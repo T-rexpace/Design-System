@@ -1,0 +1,42 @@
+@import '../globals.scss';
+@import '../tokens/colors.scss';
+@import '../tokens/typos.scss';
+@import '../tokens/spacing.scss';
+@import '../vendors/grid.scss';
+
+a {
+    margin-left: $Spacing-ExtraLarge;   // los
+    font-size: $Font-Paragraph;         // atributos
+    text-decoration: none;
+    color: $Color-Grayscale-1;          // comparte
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+.nav {
+    display: flex;
+    padding: $Spacing-Small 0;
+    background-color: $Color-Primary;
+}
+
+.submenu {
+    display: none;
+    padding: $Spacing-Small 0;
+    background-color: $Color-Primary;
+    position: absolute;
+    top: $Spacing-ExtraLarge;
+    left: 5%;
+    width: 90%;  // es el porcentaje de acuerdo al container en globales
+    .icon {
+        width: $Spacing-ExtraLarge;
+        height: $Spacing-ExtraLarge;
+        margin: 0 auto;
+        background-color: $Color-Grayscale-3;
+    }
+}
+
+.nav:hover ~ .submenu, .submenu:hover {
+    display: flex; 
+}
