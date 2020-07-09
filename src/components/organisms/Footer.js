@@ -1,10 +1,10 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 import '../../scss/organisms/Footer.scss'
 
 const Footer = () => {
     return (
-        <Fragment>
+        <div className="container">
           <div>
             <h1>Footer</h1>
             <hr className="hr" />
@@ -17,7 +17,7 @@ const Footer = () => {
                 </p>
             </div>
           </div>
-        </Fragment>
+        </div>
     )
 }
 

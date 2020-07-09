@@ -4,46 +4,59 @@
 @import '../tokens/spacing.scss';
 @import '../vendors/grid.scss';
 
-%containerBtn {
+.container__buttons {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid red;
-    padding: 20px;
+    justify-content: space-evenly;
+    height: $Spacing-ExtraLarge*5;
+    & section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
 
-.containerButtons {
-    display: flex;
-    @extend .wrapper;
-    font-family: $Font;
-}
-
-.containerButtons__normal {
-    @extend %containerBtn;
-}
-
-.containerButtons__active {
-    @extend %containerBtn;
-}
-
-.containerButtons__disable {
-    @extend %containerBtn;
-}
-
-.btn-normal {
-    @include btn-size;
-    background: $Gradient;
-    color: $Color-Grayscale-1;
+.btn {
+    padding: $Spacing-ExtraSmall $Spacing-Normal;
     border: none;
+    border-radius: 70px;
+    font-family: $Font;
+    font-size: $Font-Paragraph;
+    font-weight: $Bold;
+    outline: none;
+    &:hover {
+        cursor: pointer;
+    }
+}
+//-------------------------------  container__buttons-normal
+.btn__normal {
+    color: $Color-Grayscale-1;
+    background: $Gradient;
 }
 
-.btn__normal-transparent {
-    background: transparent;
+.btn__outline {
     color: $Color-Secondary;
     border: 2px solid $Color-Secondary;
-    border-radius: 20px;
+    background: transparent;
+}
+//-------------------------------  container__buttons-active
+.btn__normal--active {
+    @extend .btn__normal;
+}
+.btn__outline--active {
+    @extend .btn__outline;
+}
+//-------------------------------  container__buttons-disabled
+.btn__normal--disabled {
+    color: $Color-Grayscale-1;
+    background: $Color-Grayscale-4;
+}
+.btn__outline--disabled {
+    color: $Color-Grayscale-4;
+    border: 2px solid;
+    background: transparent;
 }
 
-.btn__disable {
-    background: $Color-Grayscale-2;
+.btn__facebook {
+    color: $Color-Grayscale-1;
+    background: $Color-Facebook;
 }

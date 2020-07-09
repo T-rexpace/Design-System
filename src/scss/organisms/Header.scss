@@ -1,0 +1,24 @@
+@import '../globals.scss';
+@import '../tokens/colors.scss';
+@import '../tokens/typos.scss';
+@import '../tokens/spacing.scss';
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    color: $Color-Grayscale-1;
+    align-items: center;
+    background-color: $Color-Primary;
+}
+
+.header-margin {
+    margin: 0 $Spacing-Normal;
+}
+
+.header__menu {
+    display: flex;
+    color: $Color-Grayscale-1;
+    align-items: center;
+    background-color: $Color-Primary;
+}

@@ -1,12 +1,26 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+
+import NavBar from '../molecules/NavBar'
+import ButtonSuscribe from '../atoms/ButtonSuscribe'
+import ButtonLogo from '../atoms/ButtonLogo'
+
+import '../../scss/organisms/Header.scss'
 
 const Header = () => {
     return (
-        <Fragment>
-            <h1>logotipo</h1>
-            <h1>NavBar</h1>
-            <h1>suscribirme</h1>
-        </Fragment>
+        <div className="container">
+            <h1>Header</h1>
+            <hr className="hr" />
+            <header className="header">
+                <div className="header__menu header-margin">
+                    <ButtonLogo />
+                    <NavBar />
+                </div>
+                <div className="header-margin">
+                    <ButtonSuscribe />
+                </div>
+            </header>
+        </div>
     )
 }
 

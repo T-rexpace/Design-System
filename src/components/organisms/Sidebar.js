@@ -37,7 +37,16 @@ const Sidebar = () => {
           <h4 className="mb-1">Componentes</h4>
           <ul>
             <li>
+              <Link to="/header">Header</Link>
+            </li>
+            <li>
               <Link to="/footer">Footer</Link>
+            </li>
+            <li>
+              <Link to="/buttons">Buttons</Link>
+            </li>
+            <li>
+              <Link to="/formularios">Formularios</Link>
             </li>
           </ul>
         </div>
