@@ -10,11 +10,18 @@ html {
   color: $Color-Grayscale-8;
 }
 
-h1 {
+.h0 {
+  font-size: $Font-H0;
+  font-weight: $Black;
+}
+
+h1,
+.h1 {
   font-size: $Font-H1;
 }
 
-h2 {
+h2,
+.h2 {
   font-size: $Font-H2;
 }
 

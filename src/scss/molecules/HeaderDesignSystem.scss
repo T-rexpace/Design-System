@@ -2,6 +2,10 @@
 @import '../tokens/spacing.scss';
 
 .HeaderDesignSystem {
-  padding: $Spacing-Small $Spacing-ExtraLarge;
+  padding: $Spacing-ExtraSmall $Spacing-ExtraLarge;
   border-bottom: 1px solid $Color-Grayscale-4;
+}
+
+.HeaderDesignSystem h1 {
+  color: $Color-Primary-Light-1;
 }

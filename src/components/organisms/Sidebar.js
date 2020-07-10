@@ -10,8 +10,8 @@ function Sidebar() {
       <figure className="Sidebar__logo text-center">
         <img width="200" src={logotipo} alt="T-REXPACE"/>
       </figure>
+      <h3>Design System</h3>
       <div className="Sidebar__design-system">
-        <h3>Design System</h3>
         <div className="mb-2">
           <ul>
             <li>
@@ -33,7 +33,7 @@ function Sidebar() {
             </li>
           </ul>
         </div>
-        <div className="">
+        <div>
           <h4 className="mb-1">Componentes</h4>
           <ul>
             <li>
