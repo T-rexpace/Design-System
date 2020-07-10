@@ -25,12 +25,34 @@ li {
   margin: 0 auto;
 }
 
+/* Utilities */
+
 .mb-1 {
   margin-bottom: $Spacing-ExtraSmall;
 }
 
 .mb-2 {
   margin-bottom: $Spacing-Small;
+}
+
+.mb-5 {
+  margin-bottom: $Spacing-ExtraLarge;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
 }
 
 @mixin btn-size {

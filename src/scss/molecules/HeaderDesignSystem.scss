@@ -1,0 +1,7 @@
+@import '../tokens/colors.scss';
+@import '../tokens/spacing.scss';
+
+.HeaderDesignSystem {
+  padding: $Spacing-Small $Spacing-ExtraLarge;
+  border-bottom: 1px solid $Color-Grayscale-4;
+}

@@ -11,8 +11,13 @@
   background-color: $Color-Primary-Light-1;
 }
 
+
 .Sidebar__logo {
   padding: $Spacing-Normal 0;
+
+  & img {
+    width: 70%;
+  }
 }
 
 .Sidebar__design-system {
@@ -21,4 +26,12 @@
 
 .Sidebar__design-system h3 {
   margin-bottom: $Spacing-Normal;
+}
+
+.Sidebar__design-system h4 {
+  opacity: .5;
+}
+
+.Sidebar__link {
+  margin-left: 0;
 }

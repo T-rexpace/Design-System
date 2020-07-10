@@ -2,20 +2,20 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import '../../scss/organisms/Sidebar.scss';
-import logotipo from '../../images/logotipo-placeholder.svg'
+import logotipo from '../../images/brand/imagotipo-t-rexpace.svg'
 
-const Sidebar = () => {
+function Sidebar() {
   return (
     <section className="Sidebar">
-      <figure className="Sidebar__logo">
-        <img src={logotipo} alt="T-REXPACE"/>
+      <figure className="Sidebar__logo text-center">
+        <img width="200" src={logotipo} alt="T-REXPACE"/>
       </figure>
       <div className="Sidebar__design-system">
-        <h3>T-REXPACE DS</h3>
+        <h3>Design System</h3>
         <div className="mb-2">
           <ul>
             <li>
-              <Link to="/">Principios</Link>
+              <Link className="Sidebar__link" to="/principios">Principios</Link>
             </li>
           </ul>
         </div>
@@ -23,13 +23,13 @@ const Sidebar = () => {
           <h4 className="mb-1">Tokens</h4>
           <ul>
             <li>
-              <Link to="/">Colores</Link>
+              <Link className="Sidebar__link" to="/">Colores</Link>
             </li>
             <li>
-              <Link to="/">Tipografías</Link>
+              <Link className="Sidebar__link" to="/">Tipografías</Link>
             </li>
             <li>
-              <Link to="/">Espaciado</Link>
+              <Link className="Sidebar__link" to="/">Espaciado</Link>
             </li>
           </ul>
         </div>
@@ -37,16 +37,16 @@ const Sidebar = () => {
           <h4 className="mb-1">Componentes</h4>
           <ul>
             <li>
-              <Link to="/header">Header</Link>
+              <Link className="Sidebar__link" to="/header">Header</Link>
             </li>
             <li>
-              <Link to="/footer">Footer</Link>
+              <Link className="Sidebar__link" to="/footer">Footer</Link>
             </li>
             <li>
-              <Link to="/buttons">Buttons</Link>
+              <Link className="Sidebar__link" to="/buttons">Buttons</Link>
             </li>
             <li>
-              <Link to="/formularios">Formularios</Link>
+              <Link className="Sidebar__link" to="/formularios">Formularios</Link>
             </li>
           </ul>
         </div>
