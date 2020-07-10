@@ -8,7 +8,7 @@ const Layout = (props) => {
     <>
       <div className="Layout">
         <Sidebar />
-        <div clasName="DesignSystemHome">
+        <div className="DesignSystemHome">
           {props.children}
         </div>
       </div>

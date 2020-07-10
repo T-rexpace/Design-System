@@ -6,19 +6,37 @@
 @import '../foundations/fonts.scss';
 
 .Sidebar {
-  padding: $Spacing-Large $Spacing-Normal;
+  height: 100vh;
+  padding: $Spacing-Normal 0;
   color: #ffffff;
   background-color: $Color-Primary-Light-1;
-}
 
-.Sidebar__logo {
-  padding: $Spacing-Normal 0;
-}
+  &__logo {
+    padding: 0 0 $Spacing-Normal;
 
-.Sidebar__design-system {
-  padding: $Spacing-Normal 0;
-}
+    & img {
+      width: 50%;
+    }
+  }
 
-.Sidebar__design-system h3 {
-  margin-bottom: $Spacing-Normal;
+  & h3 {
+    font-size: $Font-Paragraph;
+    margin-left: $Spacing-Small;
+    margin-bottom: $Spacing-Small;
+  }
+
+  &__design-system {
+    height: 70%;
+    padding: 0 $Spacing-ExtraSmall 0 $Spacing-Small;
+    overflow-y: auto;
+
+    & h4 {
+      opacity: .5;
+    }
+  }
+
+  &__link {
+    margin-left: 0;
+    font-size: $Font-Small;
+  }
 }
