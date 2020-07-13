@@ -1,10 +1,10 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 import imgTypo from '../../images/typo.png'
 
 const Typo = () => {
     return (
-        <Fragment>
+        <div className="container">
             <h1>Tipografía</h1>
             <hr className="hr"/>
             <p>
@@ -18,7 +18,7 @@ const Typo = () => {
             >
                 <img src={ imgTypo } alt="typo" />
             </a>
-        </Fragment>
+        </div>
     )
 }
 

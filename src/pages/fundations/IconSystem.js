@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import imgIconSystem from '../../images/iconos.png'
 
 const IconSystem = () => {
     return (
-        <Fragment>
+        <div className="container">
             <h1>Sistema Iconográfico</h1>
             <hr className="hr"/>
             <p>
@@ -15,7 +15,7 @@ const IconSystem = () => {
             >
                 <img src={ imgIconSystem } alt="iconSystem" />
             </a>
-        </Fragment>
+        </div>
     )
 }
 

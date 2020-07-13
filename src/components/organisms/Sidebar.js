@@ -23,13 +23,13 @@ function Sidebar() {
           <h4 className="mb-1">Tokens</h4>
           <ul>
             <li>
-              <Link className="Sidebar__link" to="/">Colores</Link>
+              <Link className="Sidebar__link" to="/colors">Colores</Link>
             </li>
             <li>
-              <Link className="Sidebar__link" to="/">Tipografías</Link>
+              <Link className="Sidebar__link" to="/typo">Tipografías</Link>
             </li>
             <li>
-              <Link className="Sidebar__link" to="/">Espaciado</Link>
+              <Link className="Sidebar__link" to="/spacing">Espaciado</Link>
             </li>
           </ul>
         </div>

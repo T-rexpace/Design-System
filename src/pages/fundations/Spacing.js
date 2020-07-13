@@ -1,10 +1,10 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import imgSpacing from '../../images/spacing.png'
 
 const Spacing = () => {
     return (
-        <Fragment>
-            <h1>Spacing</h1>
+        <div className="container">
+            <h1>Espaciado</h1>
             <hr className="hr"/>
             <p>
                 Una unidad es equivalente a 10px, por lo cual 2 unidades 
@@ -17,7 +17,7 @@ const Spacing = () => {
             >
                 <img src={ imgSpacing } alt="spacing" />
             </a>
-        </Fragment>
+        </div>
     )
 }
 
