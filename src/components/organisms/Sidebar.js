@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import '../../scss/organisms/Sidebar.scss';
 import logotipo from '../../images/brand/imagotipo-t-rexpace.svg'
@@ -15,7 +15,7 @@ function Sidebar() {
         <div className="mb-2">
           <ul>
             <li>
-              <Link className="Sidebar__link" to="/principios">Principios</Link>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/principios">Principios</NavLink>
             </li>
           </ul>
         </div>
@@ -23,13 +23,16 @@ function Sidebar() {
           <h4 className="mb-1">Tokens</h4>
           <ul>
             <li>
-              <Link className="Sidebar__link" to="/colors">Colores</Link>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/colors">Colores</NavLink>
             </li>
             <li>
-              <Link className="Sidebar__link" to="/typo">Tipografías</Link>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/typo">Tipografías</NavLink>
             </li>
             <li>
-              <Link className="Sidebar__link" to="/spacing">Espaciado</Link>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/spacing">Espaciado</NavLink>
+            </li>
+            <li>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/iconSystem">IconSystem</NavLink>
             </li>
           </ul>
         </div>
@@ -37,16 +40,16 @@ function Sidebar() {
           <h4 className="mb-1">Componentes</h4>
           <ul>
             <li>
-              <Link className="Sidebar__link" to="/header">Header</Link>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/header">Header</NavLink>
             </li>
             <li>
-              <Link className="Sidebar__link" to="/footer">Footer</Link>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/footer">Footer</NavLink>
             </li>
             <li>
-              <Link className="Sidebar__link" to="/buttons">Buttons</Link>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/buttons">Buttons</NavLink>
             </li>
             <li>
-              <Link className="Sidebar__link" to="/formularios">Formularios</Link>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/formularios">Formularios</NavLink>
             </li>
           </ul>
         </div>

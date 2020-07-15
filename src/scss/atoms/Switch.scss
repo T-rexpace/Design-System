@@ -1,0 +1,29 @@
+@import '../globals.scss';
+@import './Input.scss';
+
+// -------------------------- switch
+.container__switch {
+    @extend .container__form;
+}
+
+.switch__box {
+    width: 95px;
+    height: $Spacing-Large;
+    padding: $Spacing-ExtraSmall/3;
+    border-radius: $Spacing-ExtraLarge;
+    background-color: $Color-Grayscale-4;
+    & .switch__circle {
+        width: $Spacing-Normal + 4;
+        height: $Spacing-Large;
+        border-radius: 100%;
+        background-color: $Color-Grayscale-1;
+    }
+}
+
+.switch__box--active {
+    @extend .switch__box;
+        background-color: $Color-Secondary;
+    .switch__circle {
+        margin: 0 0 0 auto;
+    }
+}

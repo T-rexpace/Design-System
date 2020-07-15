@@ -40,3 +40,8 @@
     font-size: $Font-Small;
   }
 }
+
+.active {
+  color: $Color-Marca;
+  box-shadow: inset 0 -2.5px $Color-Marca;
+}

@@ -2,10 +2,8 @@ import React from 'react'
 
 import '../../scss/atoms/Buttons.scss'
 
-const Buttons = () => (
-    <div className="container">
-        <h1>Botones</h1>
-        <hr className="hr" />
+const Buttons = () => {
+    return(
         <div className="container__buttons">
 
             <section className="container__buttons-normal">
@@ -20,10 +18,10 @@ const Buttons = () => (
 
             <section className="container__buttons-active">
                 <h2>Active</h2>
-                <button className="btn btn__normal--active"> 
+                <button className="btn btn__normal--active active"> 
                     Suscribirme
                 </button>
-                <button className="btn btn__outline--active">
+                <button className="btn btn__outline--active active">
                     Suscribirme
                 </button>
             </section>
@@ -46,7 +44,7 @@ const Buttons = () => (
             </section>
 
         </div>
-    </div>
-)
+    )
+}
 
 export default Buttons

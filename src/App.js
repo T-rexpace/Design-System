@@ -3,13 +3,14 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import Layout from './components/organisms/Layout'
 import Principles from './pages/principles/Principles'
-import Footer from './components/organisms/Footer'
-import Header from './components/organisms/Header'
-import Buttons from './components/atoms/Buttons'
-import Formularios from './components/atoms/Input'
+import ButtonsDetails from './pages/components/ButtonsDetails'
+import Formularios from './pages/components/FormsDetails'
 import Colors from './pages/fundations/Colors'
 import Typo from './pages/fundations/Typo'
 import Spacing from './pages/fundations/Spacing'
+import IconSystem from './pages/fundations/IconSystem'
+import FooterDetails from './pages/components/FooterDetails'
+import HeaderDetails from './pages/components/HeaderDetails'
 
 const App = () =>  (
   <BrowserRouter
@@ -21,9 +22,10 @@ const App = () =>  (
       <Route exact path="/colors" component={ Colors } />
       <Route exact path="/typo" component={ Typo } />
       <Route exact path="/spacing" component={ Spacing } />
-      <Route exact path="/footer" component={ Footer } />
-      <Route  exact path="/buttons" component={ Buttons } />
-      <Route  exact path="/header" component={ Header } />
+      <Route exact path="/iconSystem" component={ IconSystem } />
+      <Route exact path="/footer" component={ FooterDetails } />
+      <Route  exact path="/header" component={ HeaderDetails } />
+      <Route  exact path="/buttons" component={ ButtonsDetails } />
       <Route  exact path="/formularios" component={ Formularios } />
     </Switch>
   </Layout>

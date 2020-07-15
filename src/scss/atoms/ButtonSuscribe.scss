@@ -1,7 +1,4 @@
 @import '../globals.scss';
-@import '../tokens/colors.scss';
-@import '../tokens/typos.scss';
-@import '../tokens/spacing.scss';
 
 %btn {
     padding: $Spacing-ExtraSmall $Spacing-Normal;
@@ -20,4 +17,9 @@
     @extend %btn;
     color: $Color-Grayscale-1;
     background: $Gradient;
+    transition: 200ms;
+}
+
+.active {
+    transform: scale(.8);
 }

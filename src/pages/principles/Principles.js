@@ -4,7 +4,7 @@ import HeaderDesignSystem from '../../components/molecules/HeaderDesignSystem'
 
 const Principles = () => (
   <>
-    <HeaderDesignSystem />
+    <HeaderDesignSystem title="Principios"/>
     <div className="wrapper">
       <div className="row">
         <div className="column-12">

@@ -1,8 +1,4 @@
 @import '../globals.scss';
-@import '../tokens/colors.scss';
-@import '../tokens/typos.scss';
-@import '../tokens/spacing.scss';
-@import '../vendors/grid.scss';
 
 .container__buttons {
     display: flex;
@@ -26,6 +22,10 @@
     &:hover {
         cursor: pointer;
     }
+}
+
+.active {
+    transform: scale(.8);
 }
 //-------------------------------  container__buttons-normal
 .btn__normal {

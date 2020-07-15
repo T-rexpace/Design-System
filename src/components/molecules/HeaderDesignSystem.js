@@ -2,9 +2,9 @@ import React from 'react'
 
 import '../../scss/molecules/HeaderDesignSystem.scss'
 
-const HeaderDesignSystem = () => (
+const HeaderDesignSystem = (props) => (
   <header className="HeaderDesignSystem text-right">
-    <h1>Principios</h1>
+    <h1>{ props.title }</h1>
   </header>
 )
 
