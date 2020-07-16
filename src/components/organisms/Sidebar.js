@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 import '../../scss/organisms/Sidebar.scss';
 import logotipo from '../../images/brand/imagotipo-t-rexpace.svg'
@@ -7,9 +7,11 @@ import logotipo from '../../images/brand/imagotipo-t-rexpace.svg'
 function Sidebar() {
   return (
     <section className="Sidebar">
-      <figure className="Sidebar__logo text-center">
-        <img width="200" src={logotipo} alt="T-REXPACE"/>
-      </figure>
+      <Link to='/'>
+        <figure className="Sidebar__logo text-center">
+          <img width="200" src={logotipo} alt="T-REXPACE"/>
+        </figure>
+      </Link>
       <h3>Design System</h3>
       <div className="Sidebar__design-system">
         <div className="mb-2">
@@ -46,7 +48,7 @@ function Sidebar() {
               <NavLink className="Sidebar__link" activeClassName="active" to="/footer">Footer</NavLink>
             </li>
             <li>
-              <NavLink className="Sidebar__link" activeClassName="active" to="/buttons">Buttons</NavLink>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/buttons">Botones</NavLink>
             </li>
             <li>
               <NavLink className="Sidebar__link" activeClassName="active" to="/formularios">Formularios</NavLink>
@@ -54,6 +56,7 @@ function Sidebar() {
           </ul>
         </div>
       </div>
+      <p><small>Para cualquier información contáctanos al correo <a className="Sidebar__link" href="mailto:trexpace298@gmail.com">trexpace298@gmail.com</a></small></p>
     </section>
   )
 }

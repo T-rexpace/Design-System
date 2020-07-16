@@ -7,7 +7,7 @@
 
 .Sidebar {
   height: 100vh;
-  padding: $Spacing-Normal 0;
+  padding: $Spacing-Normal $Spacing-ExtraSmall;
   color: #ffffff;
   background-color: $Color-Primary-Light-1;
 
@@ -15,19 +15,17 @@
     padding: 0 0 $Spacing-Normal;
 
     & img {
-      width: 50%;
+      width: 80%;
     }
   }
 
   & h3 {
     font-size: $Font-Paragraph;
-    margin-left: $Spacing-Small;
     margin-bottom: $Spacing-Small;
   }
 
   &__design-system {
     height: 70%;
-    padding: 0 $Spacing-ExtraSmall 0 $Spacing-Small;
     overflow-y: auto;
 
     & h4 {
@@ -38,10 +36,16 @@
   &__link {
     margin-left: 0;
     font-size: $Font-Small;
-  }
-}
+    color: $Color-Grayscale-1;
 
-.active {
-  color: $Color-Marca;
-  box-shadow: inset 0 -2.5px $Color-Marca;
+    &:hover {
+      color: $Color-Grayscale-4;
+      text-decoration: none;
+    }
+
+    &.active {
+      color: $Color-Marca;
+      box-shadow: inset 0 -2.5px $Color-Marca;
+    }
+  }
 }

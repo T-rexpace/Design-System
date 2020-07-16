@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import Layout from './components/organisms/Layout'
+import Home from './pages/Home'
 import Principles from './pages/principles/Principles'
 import ButtonsDetails from './pages/components/ButtonsDetails'
 import Formularios from './pages/components/FormsDetails'
@@ -18,6 +19,7 @@ const App = () =>  (
   >
   <Layout>
     <Switch>
+      <Route exact path="/" component={ Home } />
       <Route exact path="/principios" component={ Principles } />
       <Route exact path="/colors" component={ Colors } />
       <Route exact path="/typo" component={ Typo } />

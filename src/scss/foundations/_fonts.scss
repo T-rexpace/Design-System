@@ -8,6 +8,7 @@ html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   color: $Color-Grayscale-8;
+  line-height: 1.2;
 }
 
 .h0 {
@@ -37,13 +38,13 @@ h3 {
 }
 
 p,
-a,
 .normal {
   font-size: $Font-Paragraph;
   margin-top: $Spacing-ExtraSmall;
   margin-bottom: $Spacing-ExtraSmall;
 }
 
+small,
 .small {
   font-size: $Font-Small;
 }
