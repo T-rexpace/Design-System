@@ -3,6 +3,7 @@
 @import './tokens/spacing.scss';
 
 $Box-Shadow: 0px 0px 6px 0px $Color-Secondary;
+$Border-Radius: 10px;
 
 * {
   box-sizing: border-box;
@@ -29,6 +30,15 @@ a {
 
 li {
   list-style: none;
+}
+
+code {
+  padding: 0 $Spacing-ExtraSmall 2px;
+  margin-right: $Spacing-ExtraSmall;
+  border-radius: $Border-Radius;
+  color: rgba(0, 0, 0, .86);
+  background-color: $Color-Grayscale-3;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .hr {
@@ -66,6 +76,18 @@ li {
   margin-bottom: $Spacing-Small;
 }
 
+.mb-3 {
+  margin-bottom: $Spacing-Normal;
+}
+
+.mb-4 {
+  margin-bottom: $Spacing-Large;
+}
+
+.mb-5 {
+  margin-bottom: $Spacing-ExtraLarge;
+}
+
 .mt-5 {
   margin-top: $Spacing-ExtraLarge;
 }
@@ -78,7 +100,7 @@ li {
   text-transform: uppercase;
 }
 
-.text-uppercase {
+.text-lowercase {
   text-transform: lowercase;
 }
 

@@ -21,7 +21,43 @@ const Typo = () => {
                     para tener versatilidad en su uso. A su vez, 
                     al ser una sans serif transmite modernidad.
                 </p>
-                <h1>h1</h1>
+                <div className="mt-5 mb-5">
+                  <h3>Utilities</h3>
+                  <p className="text-left">
+                    <code>
+                      .text-left
+                    </code>
+                      Tu observatorio de asteroides
+                  </p>
+                  <p className="text-center">
+                    <code>
+                      .text-center
+                    </code>
+                      Tu observatorio de asteroides
+                  </p>
+                  <p className="text-right">
+                    <code>
+                      .text-right
+                    </code>
+                      Tu observatorio de asteroides
+                  </p>
+                  <p>
+                    <code>
+                      .text-lowercase
+                    </code>
+                    <span className="text-lowercase">
+                      Tu observatorio de asteroides
+                    </span>
+                  </p>
+                  <p>
+                    <code>
+                      .text-uppercase
+                    </code>
+                    <span className="text-uppercase">
+                      Tu observatorio de asteroides
+                    </span>
+                  </p>
+                </div>
               </>
             }
         />

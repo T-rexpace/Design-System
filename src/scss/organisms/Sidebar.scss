@@ -6,8 +6,10 @@
 @import '../foundations/fonts.scss';
 
 .Sidebar {
+  display: grid;
+  grid-template-rows: 160px auto 3fr auto;
   height: 100vh;
-  padding: $Spacing-Normal $Spacing-ExtraSmall;
+  padding: $Spacing-Small $Spacing-ExtraSmall;
   color: #ffffff;
   background-color: $Color-Primary-Light-1;
 
@@ -25,7 +27,6 @@
   }
 
   &__design-system {
-    height: 70%;
     overflow-y: auto;
 
     & h4 {
