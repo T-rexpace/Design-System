@@ -26,9 +26,9 @@ const App = () =>  (
       <Route exact path="/spacing" component={ Spacing } />
       <Route exact path="/iconSystem" component={ IconSystem } />
       <Route exact path="/footer" component={ FooterDetails } />
-      <Route  exact path="/header" component={ HeaderDetails } />
-      <Route  exact path="/buttons" component={ ButtonsDetails } />
-      <Route  exact path="/formularios" component={ Formularios } />
+      <Route exact path="/header" component={ HeaderDetails } />
+      <Route exact path="/buttons" component={ ButtonsDetails } />
+      <Route exact path="/formularios" component={ Formularios } />
     </Switch>
   </Layout>
   </BrowserRouter>

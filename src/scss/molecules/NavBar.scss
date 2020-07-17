@@ -1,46 +1,41 @@
 @import '../globals.scss';
-@import '../tokens/colors.scss';
-@import '../tokens/typos.scss';
-@import '../tokens/spacing.scss';
-@import '../vendors/grid.scss';
 
-a {
-    margin-left: $Spacing-ExtraLarge;
-    font-size: $Font-Paragraph;
-    text-decoration: none;
-    color: $Color-Grayscale-1;
-    &:hover {
-        text-decoration: underline;
-        cursor: pointer;
+.navbar {
+    &__menu {
+        display: flex;
+        padding: $Spacing-Small 0;
+        background-color: $Color-Primary;
     }
-}
-
-.nav {
-    display: flex;
-    padding: $Spacing-Small 0;
-    background-color: $Color-Primary;
-}
-
-.submenu {
-    position: absolute;
-    top: $Spacing-ExtraLarge +20;
-    left: 0;
-    display: none;
-    padding: $Spacing-Small 0;
-    width: 100%;
-    background-color: $Color-Primary;
+    &__menu:hover ~ .navbar__submenu, .navbar__submenu:hover {
+        display: flex; 
+    }
+    &__submenu {
+        position: absolute;
+        top: $Spacing-Normal * 2;
+        left: 0;
+        display: none;
+        padding: $Spacing-Small 0;
+        width: 100%;
+        background-color: $Color-Primary;
+        &-link {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+    a {
+        margin-left: $Spacing-ExtraLarge;
+        font-size: $Font-Paragraph;
+        text-decoration: none;
+        color: $Color-Grayscale-1;
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
     .icon {
         height: $Spacing-Normal*2;
         width: $Spacing-Large;
     }
-    & a {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-    }
-}
-
-.nav:hover ~ .submenu, .submenu:hover {
-    display: flex; 
 }
