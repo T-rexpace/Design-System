@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/DesignSystem/static/css/main.9ad598ad.chunk.css",
+    "main.js": "/DesignSystem/static/js/main.a902625e.chunk.js",
+    "main.js.map": "/DesignSystem/static/js/main.a902625e.chunk.js.map",
+    "runtime-main.js": "/DesignSystem/static/js/runtime-main.61f63f6f.js",
+    "runtime-main.js.map": "/DesignSystem/static/js/runtime-main.61f63f6f.js.map",
+    "static/js/2.fc78af92.chunk.js": "/DesignSystem/static/js/2.fc78af92.chunk.js",
+    "static/js/2.fc78af92.chunk.js.map": "/DesignSystem/static/js/2.fc78af92.chunk.js.map",
+    "index.html": "/DesignSystem/index.html",
+    "precache-manifest.3619c55b39b1ac692dc96ea3ff8cfb31.js": "/DesignSystem/precache-manifest.3619c55b39b1ac692dc96ea3ff8cfb31.js",
+    "service-worker.js": "/DesignSystem/service-worker.js",
+    "static/css/main.9ad598ad.chunk.css.map": "/DesignSystem/static/css/main.9ad598ad.chunk.css.map",
+    "static/js/2.fc78af92.chunk.js.LICENSE.txt": "/DesignSystem/static/js/2.fc78af92.chunk.js.LICENSE.txt",
+    "static/media/colors.png": "/DesignSystem/static/media/colors.0dfafed2.png",
+    "static/media/imagotipo-t-rexpace.svg": "/DesignSystem/static/media/imagotipo-t-rexpace.0406e280.svg",
+    "static/media/t-rex-cumpleanos-home.svg": "/DesignSystem/static/media/t-rex-cumpleanos-home.c4aa02af.svg",
+    "static/media/t-rex-graficas.svg": "/DesignSystem/static/media/t-rex-graficas.b6e5149b.svg",
+    "static/media/t-rex-seleccion-de-asteroides-home.svg": "/DesignSystem/static/media/t-rex-seleccion-de-asteroides-home.fa850e8b.svg",
+    "static/media/typo.png": "/DesignSystem/static/media/typo.a6301109.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61f63f6f.js",
+    "static/js/2.fc78af92.chunk.js",
+    "static/css/main.9ad598ad.chunk.css",
+    "static/js/main.a902625e.chunk.js"
+  ]
+}
