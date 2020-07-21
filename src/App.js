@@ -12,6 +12,9 @@ import Spacing from './pages/fundations/Spacing'
 import IconSystem from './pages/fundations/IconSystem'
 import FooterDetails from './pages/components/FooterDetails'
 import HeaderDetails from './pages/components/HeaderDetails'
+import AsteroidCardDetails from './pages/components/AsteroidCardDetails'
+import FormBirthdayDetails from './pages/components/FormBirthdayDetails'
+import HazardousCardDetails from './pages/components/HazardousCardDetails'
 
 const App = () =>  (
   <BrowserRouter
@@ -29,6 +32,9 @@ const App = () =>  (
       <Route exact path="/header" component={ HeaderDetails } />
       <Route exact path="/buttons" component={ ButtonsDetails } />
       <Route exact path="/formularios" component={ Formularios } />
+      <Route exact path="/asteroidCard" component={ AsteroidCardDetails } />
+      <Route exact path="/formBirthday" component={ FormBirthdayDetails } />
+      <Route exact path="/hazardousCard" component={ HazardousCardDetails } />
     </Switch>
   </Layout>
   </BrowserRouter>

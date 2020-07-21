@@ -8,6 +8,7 @@ const HeaderDetails = () => {
     return(
         <ComponentLayout
             title="Header"
+            underline={ true }
             details={
                 <p>El Header se compone de 3 elementos, 
                     <br />1. El logotipo de la marca, que a su vez es un enlace hacia la pnatalla de inicio

@@ -1,10 +1,62 @@
-import React, { Fragment } from 'react'
+import React from 'react'
+import '../../scss/molecules/AsteroidCard.scss'
 
-const AsteroidCard = () => {
+import Inofensivo from '../../images/icons/t-rex-asteroide-inofensivo.svg'
+import Peligroso from '../../images/icons/t-rex-asteroide-peligroso.svg'
+import Checkbox from '../atoms/Checkbox'
+
+const AsteroidCard = (props) => {
     return (
-        <Fragment>
-            <h1>AsteroidCard</h1>
-        </Fragment>
+        <div className="asteroidCard">
+            <div className="asteroidCard__picture">
+                <div className="asteroidCard__picture-asteroid">
+                    <figure>
+                        <img src={ props.data.image } alt={ props.data.name } />
+                    </figure>
+                </div>
+                <div className="asteroidCard__picture-indicator">
+                    { props.data.potentially_hazardous 
+                        ? <img src={ Peligroso } alt={ props.data.name } />
+                        : <img src={ Inofensivo } alt={ props.data.name } />
+                    }
+                </div>
+                <div className="asteroidCard__picture-velocity">
+                    <p>
+                        <small>
+                            { props.data.velocity }
+                            <br />
+                            km/s
+                        </small>
+                    </p>
+                </div>
+            </div>
+            
+            <div className="asteroidCard__details">
+                <h3>{ props.data.name }</h3>
+                <p>Fecha de avistamiento</p>
+                <div className="asteroidCard__details-date">
+                    <p><small>
+                        Primera
+                        <br />
+                        { props.data.first_observation }
+                    </small></p>
+                    <p><small>
+                        Última
+                        <br />
+                        { props.data.last_observation }
+                    </small></p>
+                </div>
+                <p>Diametro</p>
+                <div className="asteroidCard__details-diameter">
+                    <p><small>{ props.data.diameter_min } mínimo</small></p>
+                    <p><small>{ props.data.diameter_max } máximo</small></p>
+                </div>
+                <Checkbox 
+                    // check="checked"
+                    label="Comparar"
+                />
+            </div>
+        </div>
     )
 }
 

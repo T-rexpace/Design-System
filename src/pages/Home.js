@@ -5,7 +5,7 @@ import HeaderDesignSystem from '../components/molecules/HeaderDesignSystem'
 const Home = () => {
   return (
     <>
-      <HeaderDesignSystem title='Sistema de diseño de T-REXPACE' />
+      <HeaderDesignSystem title='Sistema de diseño de T-REXPACE' underline={ true }/>
       <div className="wrapper">
         <div className="row">
           <div className="column-12">

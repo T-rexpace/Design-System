@@ -8,6 +8,7 @@ const Colors = () => {
     return (
         <ComponentLayout
             title="Colores"
+            underline={ true }
             component={
                 <a href="https://www.figma.com/proto/oob5O8j7YVKKtlLd8To6fn/design-system?node-id=582%3A2068&scaling=scale-down-width">
                     <img src={ imgColors } alt="colors"/>

@@ -9,6 +9,7 @@ const Spacing = () => {
     return (
       <ComponentLayout 
         title="Espaciado"
+        underline={ true }
         component={
           <a href="https://www.figma.com/proto/oob5O8j7YVKKtlLd8To6fn/design-system?node-id=583%3A0&scaling=scale-down-width">
               <img src={ imgSpacing } alt="spacing" />

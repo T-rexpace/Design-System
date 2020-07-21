@@ -26,6 +26,10 @@ h2,
   font-size: $Font-H2;
 }
 
+.h2--bb {
+  border-bottom: 1px solid $Color-Grayscale-4;
+}
+
 h3 {
   font-size: $Font-H3;
 }

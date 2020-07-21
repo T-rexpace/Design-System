@@ -3,7 +3,10 @@
 
 .HeaderDesignSystem {
   padding: $Spacing-ExtraSmall $Spacing-ExtraLarge;
-  border-bottom: 1px solid $Color-Grayscale-4;
+  &__underline {
+    border-bottom: 1px solid $Color-Grayscale-4;
+    width: 100%;
+  }
 }
 
 .HeaderDesignSystem h1 {

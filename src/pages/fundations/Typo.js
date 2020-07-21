@@ -8,6 +8,7 @@ const Typo = () => {
     return (
         <ComponentLayout
             title="Tipografía"
+            underline={ true }
             component={
                 <a href="https://www.figma.com/proto/oob5O8j7YVKKtlLd8To6fn/design-system?node-id=323%3A1537&scaling=scale-down-width">
                     <img src={ imgTypo } alt="typo" />

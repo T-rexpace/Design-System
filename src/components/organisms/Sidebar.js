@@ -53,6 +53,15 @@ function Sidebar() {
             <li>
               <NavLink className="Sidebar__link" activeClassName="active" to="/formularios">Formularios</NavLink>
             </li>
+            <li>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/asteroidCard">Asteroid Card</NavLink>
+            </li>
+            <li>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/formBirthday">Form Birthday</NavLink>
+            </li>
+            <li>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/hazardousCard">Hazardous Indicator Card</NavLink>
+            </li>
           </ul>
         </div>
       </div>

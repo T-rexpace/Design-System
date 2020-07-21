@@ -10,6 +10,7 @@ const ButtonsDetails = () => {
         <Fragment>
             <ComponentLayout 
                 title="Botones"
+                underline={ true }
                 details={ 
                     <p>
                         Esta es la colección de Botones a utilizar en la aplicación.
@@ -19,7 +20,7 @@ const ButtonsDetails = () => {
             />
             <div className="mt-5"></div>
             <ComponentLayout 
-                title="Boton Principal"
+                subtitle="Boton Principal"
                 details={ 
                     <p>
                         El botón de suscribirse habilitará el modal 
