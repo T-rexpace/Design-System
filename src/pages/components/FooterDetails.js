@@ -8,6 +8,7 @@ const FooterDetails = () => {
     return(
         <ComponentLayout
             title="Footer"
+            underline={ true }
             details={ 
                 <p>
                     El Footer se mostrará en todas las pantallas de la aplicacion, 

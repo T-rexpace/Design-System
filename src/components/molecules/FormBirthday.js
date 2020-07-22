@@ -1,11 +1,19 @@
 import React from 'react'
 
+import Input from '../../components/atoms/Input'
+import ButtonSuscribe from '../../components/atoms/ButtonSuscribe'
+
+import '../../scss/molecules/FormBirthday.scss'
+
 const FormBirthday = () => {
     return (
-        <Fragment>
-            <h1>Fecha</h1>
-            <h1>Consultar</h1>
-        </Fragment>
+        <div className="formBirday">
+            <Input 
+                label="Fecha"
+                placeholder="07/05/1946"
+            />
+            <ButtonSuscribe title="Consultar" />
+        </div>
     )
 }
 

@@ -2,27 +2,16 @@ import React  from 'react'
 
 import '../../scss/atoms/Input.scss'
 
-const Input = () => {
+const Input = (props) => {
     return(
-        <div className="container__form">
-            <div className="form">
-                <h3>Normal</h3>
-                <label>Label</label>
-                <input 
-                    placeholder="Placeholder"
-                    type="text" 
-                    name="user_name" 
+        <div className="form">
+            <label>{ props.label || "Label"}</label>
+            <input
+                autoFocus={ props.active }
+                placeholder={ props.placeholder || props.label || "Placeholder" }
+                type="text" 
+                name={ props.label } 
                 />
-            </div>
-            <div className="form--active">
-                <h3>Active</h3>
-                <label>Label</label>
-                <input 
-                    placeholder="Placeholder"
-                    type="text" 
-                    name="user_name" 
-                />
-            </div>
         </div>
     )
 }

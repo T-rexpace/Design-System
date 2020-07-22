@@ -26,6 +26,12 @@ h2,
   font-size: $Font-H2;
 }
 
+.h2--bb {
+  padding-bottom: $Spacing-Small;
+  margin-bottom: $Spacing-Small;
+  border-bottom: 1px solid $Color-Grayscale-4;
+}
+
 h3 {
   font-size: $Font-H3;
 }
@@ -38,9 +44,10 @@ h3 {
 }
 
 p,
+span,
 .normal {
   font-size: $Font-Paragraph;
-  margin-top: $Spacing-ExtraSmall;
+  margin-top: 0;
   margin-bottom: $Spacing-ExtraSmall;
 }
 

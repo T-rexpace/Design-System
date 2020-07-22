@@ -14,33 +14,39 @@ function Sidebar() {
       </Link>
       <h3>Design System</h3>
       <div className="Sidebar__design-system">
-        <div className="mb-2">
+        <div className="mb-20">
           <ul>
             <li>
               <NavLink className="Sidebar__link" activeClassName="active" to="/principios">Principios</NavLink>
             </li>
           </ul>
         </div>
-        <div className="mb-2">
-          <h4 className="mb-1">Tokens</h4>
+        <div className="mb-20">
+          <h4 className="mb-10">Tokens</h4>
           <ul>
             <li>
-              <NavLink className="Sidebar__link" activeClassName="active" to="/colors">Colores</NavLink>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/colores">Colores</NavLink>
             </li>
             <li>
-              <NavLink className="Sidebar__link" activeClassName="active" to="/typo">Tipografías</NavLink>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/tipografia">Tipografías</NavLink>
             </li>
             <li>
-              <NavLink className="Sidebar__link" activeClassName="active" to="/spacing">Espaciado</NavLink>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/espaciado">Espaciado</NavLink>
             </li>
             <li>
-              <NavLink className="Sidebar__link" activeClassName="active" to="/iconSystem">IconSystem</NavLink>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/animaciones">Animaciones</NavLink>
+            </li>
+            <li>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/iconografia">Iconografía</NavLink>
             </li>
           </ul>
         </div>
         <div>
-          <h4 className="mb-1">Componentes</h4>
+          <h4 className="mb-10">Componentes</h4>
           <ul>
+            <li>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/grid">Grid</NavLink>
+            </li>
             <li>
               <NavLink className="Sidebar__link" activeClassName="active" to="/header">Header</NavLink>
             </li>
@@ -52,6 +58,15 @@ function Sidebar() {
             </li>
             <li>
               <NavLink className="Sidebar__link" activeClassName="active" to="/formularios">Formularios</NavLink>
+            </li>
+            <li>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/asteroidCard">Asteroid Card</NavLink>
+            </li>
+            <li>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/formBirthday">Form Birthday</NavLink>
+            </li>
+            <li>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/hazardousCard">Hazardous Indicator Card</NavLink>
             </li>
           </ul>
         </div>

@@ -7,6 +7,7 @@
     font-family: $Font;
     font-size: $Font-Paragraph;
     font-weight: $Bold;
+
     outline: none;
     &:hover {
         cursor: pointer;
@@ -17,7 +18,8 @@
     @extend %btn;
     color: $Color-Grayscale-1;
     background: $Gradient;
-    transition: 200ms;
+    transition: transform 200ms;
+    will-change: transform;
 }
 
 .active {

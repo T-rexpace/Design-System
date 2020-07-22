@@ -1,10 +1,4 @@
 @import '../globals.scss';
-@import './Input.scss';
-
-// -------------------------- switch
-.container__switch {
-    @extend .container__form;
-}
 
 .switch__box {
     width: 95px;
@@ -13,8 +7,8 @@
     border-radius: $Spacing-ExtraLarge;
     background-color: $Color-Grayscale-4;
     & .switch__circle {
-        width: $Spacing-Normal + 4;
-        height: $Spacing-Large;
+        width: $Spacing-Normal;
+        height: $Spacing-Large - 7;
         border-radius: 100%;
         background-color: $Color-Grayscale-1;
     }

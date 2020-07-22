@@ -7,8 +7,8 @@ const ColorCard = (props) => {
     <article className="ColorCard">
       <div className={`ColorCard__color ${props.color}`}></div>
       <div className="ColorCard__details">
-        <span> { props.token } </span>
-        <span> { props.hexadecimal } </span>
+        <small>{ props.token }</small><br />
+        <small>{ props.hexadecimal }</small>
       </div>
     </article>
   )

@@ -1,24 +1,10 @@
 @import '../globals.scss';
 
-// -------------------------- Input
-.container__form {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    margin-bottom: $Spacing-Large;
-    & div {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
 .form {
     label {
+        display: block;
         margin-bottom: $Spacing-ExtraSmall;
         font-size: $Font-Small;
-    }
-    h3 {
-        margin-bottom: $Spacing-Large;
     }
     input {
         padding: $Spacing-ExtraSmall;
@@ -32,16 +18,7 @@
         border: 2px solid $Color-Secondary;
         box-shadow: 0 0 5px $Color-Secondary;
     }
-}
-
-.form--active {
-    @extend .form;
-    input {
-        border: 2px solid $Color-Secondary;
-        box-shadow: 0 0 5px $Color-Secondary;
+    ::placeholder {
+        color: $Color-Grayscale-4;
     }
-}
-
-::placeholder {
-    color: $Color-Grayscale-4;
 }

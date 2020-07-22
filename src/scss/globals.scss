@@ -46,11 +46,6 @@ code {
   margin: $Spacing-ExtraSmall 0 $Spacing-Normal;
 }
 
-.container {
-  width: 90%;
-  margin: 0 auto;
-}
-
 ::-webkit-scrollbar {
   width: .5em;
 }
@@ -68,34 +63,35 @@ code {
 
 /* Utilities */
 
-.mb-1 {
-  margin-bottom: $Spacing-ExtraSmall;
+$max: 50;
+$offset: 5;
+$unit: 'px';
+
+@mixin spacing-loop($className, $styleName) {
+  $i: 0;
+
+  @while $i <=$max {
+    #{$className + $i} {
+      #{$styleName}: #{$i + $unit};
+    }
+
+    $i: $i+$offset;
+  }
 }
 
-.mb-2 {
-  margin-bottom: $Spacing-Small;
-}
+// Margin
+@include spacing-loop('.mt-', 'margin-top');
+@include spacing-loop('.mr-', 'margin-right');
+@include spacing-loop('.mb-', 'margin-bottom');
+@include spacing-loop('.ml-', 'margin-left');
 
-.mb-3 {
-  margin-bottom: $Spacing-Normal;
-}
+//Padding
+@include spacing-loop('.pt-', 'padding-top');
+@include spacing-loop('.pr-', 'padding-right');
+@include spacing-loop('.pb-', 'padding-bottom');
+@include spacing-loop('.pl-', 'padding-left');
 
-.mb-4 {
-  margin-bottom: $Spacing-Large;
-}
-
-.mb-5 {
-  margin-bottom: $Spacing-ExtraLarge;
-}
-
-.mt-5 {
-  margin-top: $Spacing-ExtraLarge;
-}
-
-.mb-5 {
-  margin-bottom: $Spacing-ExtraLarge;
-}
-
+// Typos
 .text-uppercase {
   text-transform: uppercase;
 }
@@ -114,6 +110,12 @@ code {
 
 .text-left {
   text-align: left;
+}
+
+//Background
+.bg-primary {
+  color: $Color-Grayscale-1;
+  background-color: $Color-Primary;
 }
 
 @mixin btn-size {

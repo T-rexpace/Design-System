@@ -1,8 +1,8 @@
-import React, { Fragment } from 'react'
-// import { Link } from 'react-router-dom'
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 import IconColection from '../../images/icons/t-rex-seleccion-de-asteroides-home.svg'
-import IconBirthday from '../../images/icons/t-rex-cumpleanos-home.svg'
+import IconBirthday from '../../images/icons/regalo-de-cumpelannios.svg'
 import IconGraphs from '../../images/icons/t-rex-graficas.svg'
 
 import '../../scss/molecules/NavBar.scss'
@@ -10,47 +10,43 @@ import '../../scss/molecules/NavBar.scss'
 const NavBar = () => {
 
     return (
-        <Fragment>
-            <div className="nav">
-                <a 
-                    href="#"
-                    className="nav__menu"
-                >
+        <div className="navbar">
+            <div className="navbar__menu">
+                <Link to="#" className="navbar__menu-asteroides">
                     Asteroides »
-                </a>
-                <a 
-                    href="#">
+                </Link>
+                <Link to="#">
                     Memorama
-                </a>
+                </Link>
             </div>
             
-            <div className="submenu">
-                <a href="#">
+            <div className="navbar__submenu">
+                <Link to="#" className="navbar__submenu-link">
                     <img 
                         src={ IconColection } 
                         alt="IconnColection" 
                         className="icon"
                     />
                     Colección
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#" className="navbar__submenu-link">
                     <img 
                         src={ IconBirthday } 
                         alt="IconnBirthday" 
                         className="icon"
                     />
                     Cumpleaños
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#" className="navbar__submenu-link">
                     <img 
                         src={ IconGraphs } 
                         alt="IconnGraphs" 
                         className="icon"
                     />
                     Gráficas
-                </a>
+                </Link>
             </div>
-        </Fragment>
+        </div>
     )
 }
 

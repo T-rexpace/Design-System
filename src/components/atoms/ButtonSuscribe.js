@@ -2,7 +2,7 @@ import React from 'react'
 
 import '../../scss/atoms/ButtonSuscribe.scss'
 
-const ButtonSuscribe = () => {
+const ButtonSuscribe = (props) => {
     const handleClick = () => {
         const $btnSuscribe = document.getElementById('btnSuscribe')
         $btnSuscribe.classList.add('active')
@@ -13,7 +13,7 @@ const ButtonSuscribe = () => {
         className="btn btn__normal"
         id="btnSuscribe"
         onClick={ handleClick }> 
-            Suscribirme
+            { props.title || "Suscribirme"}
         </button>    
     )
 }

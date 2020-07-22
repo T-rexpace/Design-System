@@ -1,14 +1,9 @@
 @import '../globals.scss';
-@import './Input.scss';
-
-// -------------------------- checkbox
-.container__checkbox {
-    @extend .container__form;
-}
 
 .checkbox {
     display: flex;
     align-items: center;
+    margin: 0 auto;
     input[type="checkbox"] + label:before {
         content: "";
         width: $Spacing-Small;
@@ -45,8 +40,4 @@
     input[type="checkbox"]:checked + label {
         color: $Color-Secondary;
     }
-}
-
-.checkbox--active {
-    @extend .checkbox;
 }
