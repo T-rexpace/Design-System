@@ -62,6 +62,18 @@ function Sidebar() {
             <li>
               <NavLink className="Sidebar__link" activeClassName="active" to="/hazardousCard">Hazardous Indicator Card</NavLink>
             </li>
+            <li>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/playerData">Player Data</NavLink>
+            </li>
+            <li>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/rowGraphData">Row Graph Data</NavLink>
+            </li>
+            <li>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/orderDropdown">Order Dropdown</NavLink>
+            </li>
+            <li>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/comparativeContainer">Comparative Container</NavLink>
+            </li>
           </ul>
         </div>
       </div>

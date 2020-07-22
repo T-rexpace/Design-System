@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react'
 import ComponentLayout from '../../components/ComponentLayout'
-import { ButtonSuscribeString } from '../../documentationComponents/ComponentCode'
+import { ButtonString } from '../../documentationComponents/ComponentCode'
 import ComponentLayotCode from '../../documentationComponents/ComponentLayoutCode'
 import Buttons from '../../components/atoms/Buttons'
-import ButtonSuscribe from '../../components/atoms/ButtonSuscribe'
+import Button from '../../components/atoms/Button'
 
 const ButtonsDetails = () => {
     return(
@@ -27,11 +27,11 @@ const ButtonsDetails = () => {
                         para que nuestro usuario se suscriba al Newsletter
                     </p>
                 }
-                component={ <ButtonSuscribe /> }
+                component={ <Button type="normal" /> }
                 code={ <ComponentLayotCode 
                     title="Boton suscribirse"
-                    jsx={ ButtonSuscribeString.jsx }
-                    sass={ ButtonSuscribeString.sass }
+                    jsx={ ButtonString.jsx }
+                    sass={ ButtonString.sass }
                 /> }
             />
         </Fragment>

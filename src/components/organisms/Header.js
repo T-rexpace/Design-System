@@ -1,7 +1,7 @@
 import React from 'react'
 
 import NavBar from '../molecules/NavBar'
-import ButtonSuscribe from '../atoms/ButtonSuscribe'
+import Button from '../atoms/Button'
 import ButtonLogo from '../atoms/ButtonLogo'
 
 import '../../scss/organisms/Header.scss'
@@ -14,7 +14,7 @@ const Header = () => {
                 <NavBar />
             </div>
             <div className="header-margin">
-                <ButtonSuscribe />
+                <Button type="normal" />
             </div>
         </header>
     )
