@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 
 import ComponentLayout from '../../components/ComponentLayout'
-
+import ColorCard from '../../components/molecules/ColorCard'
 import imgColors from '../../images/colors.png'
 
 const Colors = () => {
@@ -21,6 +21,32 @@ const Colors = () => {
                     <p>3. Escala de grises</p>
                     <p>4. Degradado</p>
                     <p>5. Color positivo y negativo para  indicadores de acciones</p>
+                    <div className="wrapper">
+                      <div className="row">
+                        <h2 className="h2--bb">Colores primarios</h2>
+                        <div className="column-3">
+                          <ColorCard
+                            color="primary"
+                            token='$Color-Primary'
+                            hexadecimal='#301D4A'
+                          />
+                        </div>
+                        <div className="column-3">
+                          <ColorCard
+                            color="primary"
+                            token='$Color-Primary'
+                            hexadecimal='#301D4A'
+                          />
+                        </div>
+                        <div className="column-3">
+                          <ColorCard
+                            color="primary"
+                            token='$Color-Primary'
+                            hexadecimal='#301D4A'
+                          />
+                        </div>
+                      </div>
+                    </div>
                 </Fragment>
             }
         />

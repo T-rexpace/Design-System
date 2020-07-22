@@ -1,0 +1,22 @@
+@import '../globals.scss';
+@import '../tokens/colors';
+@import '../tokens/spacing';
+
+.ColorCard {
+  border-radius: $Border-Radius;
+  overflow: hidden;
+  box-shadow: 0px 0px 6px 0px rgba(42, 31, 56, 0.20);
+
+  &__color {
+    height: 150px;
+
+    &.primary {
+      background-color: $Color-Primary;
+    }
+  }
+
+  &__details {
+    padding: $Spacing-ExtraSmall;
+    background-color: $Color-Grayscale-2;
+  }
+}
