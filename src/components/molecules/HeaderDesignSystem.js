@@ -7,9 +7,6 @@ const HeaderDesignSystem = (props) => (
     <header className="HeaderDesignSystem text-right">
       <h1>{ props.title }</h1>
     </header>
-    { props.underline &&
-      <div className="HeaderDesignSystem__underline" />
-    }
   </Fragment>
 )
 

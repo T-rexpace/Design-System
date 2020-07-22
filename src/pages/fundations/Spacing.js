@@ -24,8 +24,8 @@ const Spacing = () => {
                 Estas unidades definirán las dimensiones, el relleno 
                 y margen de los elementos.
             </p>
-            <div className="mt-5 mb-5">
-              <h3>Opciones de unidades</h3>
+            <div className="mt-50 mb-50">
+              <h2 className="h2--bb">Opciones de unidades</h2>
               <code>
                 $Spacing-ExtraSmall: 10px;
               </code><br /><br />
