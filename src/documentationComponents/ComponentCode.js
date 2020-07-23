@@ -654,3 +654,40 @@ export const ComparativeContainerString = {
     }
 }`
 }
+
+export const ModalSuscribeString = {
+    jsx: `
+<div className="modalSuscribe">
+    <Button type="outline" title="Logotipo" />
+    <p>
+        Descubre cada mes los asteroides más impresionantes
+    </p>
+    <Input label="Nombre completo" />
+    <Input label="Correo electronico" />
+    <Button type="normal" />
+</div>`,
+    sass: `
+@import '../globals.scss';
+
+.modalSuscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 540px;
+    height: 600px;
+    border: 1px solid $Color-Primary;
+    border-radius: $Border-Radius * 2;
+    padding: $Spacing-Large;
+    & p {
+        text-align: center;
+    }
+    & input {
+        width: 100%;
+    }
+}`
+}
+
+export const ModalBirthdayString = {
+    jsx: 'jsx',
+    sass: 'sass'
+}

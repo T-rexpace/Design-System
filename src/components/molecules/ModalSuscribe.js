@@ -1,10 +1,20 @@
-import React, { Fragment } from 'react'
+import React from 'react'
+import '../../scss/molecules/ModalSuscribe.scss'
+
+import Button from '../atoms/Button'
+import Input from '../atoms/Input'
 
 const ModalSuscribe = () => {
     return(
-        <Fragment>
-            <h1>ModalSuscribe</h1>
-        </Fragment>
+        <div className="modalSuscribe">
+            <Button type="outline" title="Logotipo" />
+            <p>
+                Descubre cada mes los asteroides más impresionantes
+            </p>
+            <Input label="Nombre completo" />
+            <Input label="Correo electronico" />
+            <Button type="normal" />
+        </div>
     )
 }
 

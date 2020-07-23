@@ -21,6 +21,8 @@ import PlayerDataDetails from './pages/components/PlayerDataDetails'
 import RowGraphDataDetails from './pages/components/RowGraphDataDetails'
 import OrderDropdownDetails from './pages/components/OrderDropdownDetails'
 import ComparativeContainerDetails from './pages/components/ComparativeContainerDetails'
+import ModalSuscribeDetails from './pages/components/ModalSuscribeDetails'
+import ModalBirthdayDetails from './pages/components/ModalBirthdayDetails'
 
 const App = () =>  (
   <BrowserRouter
@@ -47,6 +49,8 @@ const App = () =>  (
       <Route exact path="/rowGraphData" component={ RowGraphDataDetails } />
       <Route exact path="/orderDropdown" component={ OrderDropdownDetails } />
       <Route exact path="/comparativeContainer" component={ ComparativeContainerDetails } />
+      <Route exact path="/modalSuscribe" component={ ModalSuscribeDetails } />
+      <Route exact path="/modalBirthday" component={ ModalBirthdayDetails } />
     </Switch>
   </Layout>
   </BrowserRouter>

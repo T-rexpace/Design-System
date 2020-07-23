@@ -80,6 +80,12 @@ function Sidebar() {
             <li>
               <NavLink className="Sidebar__link" activeClassName="active" to="/comparativeContainer">Comparative Container</NavLink>
             </li>
+            <li>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/modalSuscribe">Modal Suscribe</NavLink>
+            </li>
+            <li>
+              <NavLink className="Sidebar__link" activeClassName="active" to="/modalBirthday">Modal Birthday</NavLink>
+            </li>
           </ul>
         </div>
       </div>

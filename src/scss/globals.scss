@@ -117,10 +117,3 @@ $unit: 'px';
   color: $Color-Grayscale-1;
   background-color: $Color-Primary;
 }
-
-@mixin btn-size {
-  padding: 5px 20px;
-  margin: $Spacing-Normal;
-  font-size: $Font-Paragraph;
-  border-radius: 20px;
-}
