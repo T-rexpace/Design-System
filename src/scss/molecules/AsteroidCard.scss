@@ -34,6 +34,7 @@
             background: $Gradient;
         }
         &-velocity p {
+            margin-top: $Spacing-Small - 2;
             text-align: center;
             line-height: .8;
         }
@@ -45,11 +46,12 @@
         padding: $Spacing-Small;
         height: 300px;
         p {
-            line-height: .6;
             flex: 1;
+            margin: 0;
         }
         &-date {
             display: flex;
+            line-height: .8;
         }
         &-diameter {
             @extend .asteroidCard__details-date

@@ -4,11 +4,12 @@ import '../../scss/molecules/ModalBirthday.scss'
 import Button from '../atoms/Button'
 import Input from '../atoms/Input'
 import Checkbox from '../atoms/Checkbox'
+import Logotipo from '../atoms/Logotipo'
 
 const ModalBirthday = () => {
     return(
         <div className="modalBirthday">
-            <Button type="outline" title="Logotipo" />
+            <Logotipo />
             <p>
                 Los que cumplen en (mes) tienen su propio asteroide. ¡Obtén el tuyo!
             </p>

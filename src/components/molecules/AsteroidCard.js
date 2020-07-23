@@ -22,9 +22,9 @@ const AsteroidCard = (props) => {
                 </div>
                 <div className="asteroidCard__picture-velocity">
                     <p>
+                        { props.data.velocity }
+                        <br />
                         <small>
-                            { props.data.velocity }
-                            <br />
                             km/s
                         </small>
                     </p>
@@ -33,26 +33,29 @@ const AsteroidCard = (props) => {
             
             <div className="asteroidCard__details">
                 <h3>{ props.data.name }</h3>
-                <p>Fecha de avistamiento</p>
-                <div className="asteroidCard__details-date">
-                    <p><small>
-                        Primera
-                        <br />
-                        { props.data.first_observation }
-                    </small></p>
-                    <p><small>
-                        Última
-                        <br />
-                        { props.data.last_observation }
-                    </small></p>
+                <div>
+                    <p>Fecha de avistamiento</p>
+                    <div className="asteroidCard__details-date">
+                        <p><small>
+                            Primera
+                            <br />
+                            { props.data.first_observation }
+                        </small></p>
+                        <p><small>
+                            Última
+                            <br />
+                            { props.data.last_observation }
+                        </small></p>
+                    </div>
                 </div>
-                <p>Diametro</p>
-                <div className="asteroidCard__details-diameter">
-                    <p><small>{ props.data.diameter_min } mínimo</small></p>
-                    <p><small>{ props.data.diameter_max } máximo</small></p>
+                <div>
+                    <p>Diametro(km)</p>
+                    <div className="asteroidCard__details-diameter">
+                        <p><small>mínimo: { props.data.diameter_min }</small></p>
+                        <p><small>máximo: { props.data.diameter_max }</small></p>
+                    </div>
                 </div>
                 <Checkbox 
-                    // check="checked"
                     label="Comparar"
                 />
             </div>
