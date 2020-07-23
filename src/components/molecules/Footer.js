@@ -4,14 +4,14 @@ import '../../scss/organisms/Footer.scss'
 
 const Footer = () => {
     return (
-        <div className="footer">
-            <p>
-                Datos de fuentes oficiales de la NASA
-            </p>
-            <p>
-                Hecho con ❤️ por T-<span>REX</span>PACE
-            </p>
-        </div>
+      <div className="footer">
+        <p>
+          Datos de fuentes oficiales de la NASA
+        </p>
+        <p>
+          Hecho con <span role="img" aria-label="amor">❤️</span> por T-<span>REX</span>PACE
+        </p>
+      </div>
     )
 }
 

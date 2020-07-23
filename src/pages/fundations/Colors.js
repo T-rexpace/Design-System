@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 import ComponentLayout from '../../components/ComponentLayout'
 import ColorCard from '../../components/molecules/ColorCard'

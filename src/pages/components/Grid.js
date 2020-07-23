@@ -12,7 +12,7 @@ const Grid = () => {
         <div className="row">
           <div className="column-12">
             <p>
-              Nos basamos en el sistema de grillas de <a href="https://webdesign.tutsplus.com/tutorials/a-simple-responsive-grid-made-even-better-with-sass--cms-21540" target="_blank">Ian Yates</a>. Este nos ofrece 
+              Nos basamos en el sistema de grillas de <a href="https://webdesign.tutsplus.com/tutorials/a-simple-responsive-grid-made-even-better-with-sass--cms-21540" rel="noopener noreferrer" target="_blank">Ian Yates</a>. Este nos ofrece 
               una estructura sencilla empleando tres elementos: wrapper, row 
               y column. Para conocer más visita la documentación.
             </p>

@@ -1,7 +1,6 @@
 import React from 'react'
 
 import ComponentLayout from '../../components/ComponentLayout'
-import ComponentLayoutCode from '../../documentationComponents/ComponentLayoutCode'
 
 import imgSpacing from '../../images/spacing.png'
 
