@@ -1,20 +1,18 @@
 import React from 'react'
+import '../../scss/organisms/Header.scss'
 
 import NavBar from '../molecules/NavBar'
-import ButtonSuscribe from '../atoms/ButtonSuscribe'
-import ButtonLogo from '../atoms/ButtonLogo'
-
-import '../../scss/organisms/Header.scss'
+import Button from '../atoms/Button'
 
 const Header = () => {
     return (
         <header className="header">
             <div className="header__menu header-margin">
-                <ButtonLogo />
+                <Button type="outline" title="Logotipo" />
                 <NavBar />
             </div>
             <div className="header-margin">
-                <ButtonSuscribe />
+                <Button type="normal" />
             </div>
         </header>
     )

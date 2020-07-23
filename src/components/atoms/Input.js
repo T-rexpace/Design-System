@@ -1,5 +1,4 @@
 import React  from 'react'
-
 import '../../scss/atoms/Input.scss'
 
 const Input = (props) => {
@@ -11,7 +10,7 @@ const Input = (props) => {
                 placeholder={ props.placeholder || props.label || "Placeholder" }
                 type="text" 
                 name={ props.label } 
-                />
+            />
         </div>
     )
 }

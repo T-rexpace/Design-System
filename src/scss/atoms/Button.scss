@@ -1,0 +1,69 @@
+@import '../globals.scss';
+
+//-------------------------------  general button properties
+%btn {
+    padding: $Spacing-ExtraSmall $Spacing-Normal;
+    border: none;
+    border-radius: 70px;
+    font-family: $Font;
+    font-size: $Font-Paragraph;
+    font-weight: $Bold;
+    text-transform: uppercase;
+    outline: none;
+    transition: transform 200ms;
+    will-change: transform;
+    &:hover {
+        cursor: pointer;
+    }
+    &:active {
+        transform: scale(.8);
+    }
+}
+//-------------------------------  normal-button
+.btn__normal {
+    @extend %btn;
+    color: $Color-Grayscale-1;
+    background: $Gradient;
+}
+//-------------------------------  outline-button
+.btn__outline {
+    @extend %btn;
+    color: $Gradient;
+    border: 2px solid $Gradient;
+    background: transparent;
+}
+//-------------------------------  active-normal-button
+.btn__normal--active {
+    @extend .btn__normal;
+    transform: scale(.8);
+}
+//-------------------------------  active-outline-button
+.btn__outline--active {
+    @extend .btn__outline;
+    transform: scale(.8);
+}
+//-------------------------------  disabled-normal-button
+.btn__normal--disabled {
+    @extend %btn;
+    color: $Color-Grayscale-1;
+    background: $Color-Grayscale-4;
+    &:active {
+        transform: none;
+    }
+}
+//-------------------------------  disabled-outline-button
+.btn__outline--disabled {
+    @extend %btn;
+    color: $Color-Grayscale-4;
+    border: 2px solid;
+    background: transparent;
+    &:active {
+        transform: none;
+    }
+}
+//-------------------------------  facebook-button
+.btn__facebook {
+    @extend %btn;
+    color: $Color-Grayscale-1;
+    background: $Color-Facebook;
+}

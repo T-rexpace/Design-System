@@ -2,61 +2,11 @@
 
 .container__buttons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: $Spacing-ExtraLarge*5;
     & section {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
-}
-
-.btn {
-    padding: $Spacing-ExtraSmall $Spacing-Normal;
-    border: none;
-    border-radius: 70px;
-    font-family: $Font;
-    font-size: $Font-Paragraph;
-    font-weight: $Bold;
-    outline: none;
-    &:hover {
-        cursor: pointer;
-    }
-}
-
-.active {
-    transform: scale(.8);
-}
-//-------------------------------  container__buttons-normal
-.btn__normal {
-    color: $Color-Grayscale-1;
-    background: $Gradient;
-}
-
-.btn__outline {
-    color: $Color-Secondary;
-    border: 2px solid $Color-Secondary;
-    background: transparent;
-}
-//-------------------------------  container__buttons-active
-.btn__normal--active {
-    @extend .btn__normal;
-}
-.btn__outline--active {
-    @extend .btn__outline;
-}
-//-------------------------------  container__buttons-disabled
-.btn__normal--disabled {
-    color: $Color-Grayscale-1;
-    background: $Color-Grayscale-4;
-}
-.btn__outline--disabled {
-    color: $Color-Grayscale-4;
-    border: 2px solid;
-    background: transparent;
-}
-
-.btn__facebook {
-    color: $Color-Grayscale-1;
-    background: $Color-Facebook;
 }

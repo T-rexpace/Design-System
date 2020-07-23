@@ -17,6 +17,12 @@ import FooterDetails from './pages/components/FooterDetails'
 import AsteroidCardDetails from './pages/components/AsteroidCardDetails'
 import FormBirthdayDetails from './pages/components/FormBirthdayDetails'
 import HazardousCardDetails from './pages/components/HazardousCardDetails'
+import PlayerDataDetails from './pages/components/PlayerDataDetails'
+import RowGraphDataDetails from './pages/components/RowGraphDataDetails'
+import OrderDropdownDetails from './pages/components/OrderDropdownDetails'
+import ComparativeContainerDetails from './pages/components/ComparativeContainerDetails'
+import ModalSuscribeDetails from './pages/components/ModalSuscribeDetails'
+import ModalBirthdayDetails from './pages/components/ModalBirthdayDetails'
 
 const App = () =>  (
   <BrowserRouter
@@ -39,6 +45,12 @@ const App = () =>  (
       <Route exact path="/asteroidCard" component={ AsteroidCardDetails } />
       <Route exact path="/formBirthday" component={ FormBirthdayDetails } />
       <Route exact path="/hazardousCard" component={ HazardousCardDetails } />
+      <Route exact path="/playerData" component={ PlayerDataDetails } />
+      <Route exact path="/rowGraphData" component={ RowGraphDataDetails } />
+      <Route exact path="/orderDropdown" component={ OrderDropdownDetails } />
+      <Route exact path="/comparativeContainer" component={ ComparativeContainerDetails } />
+      <Route exact path="/modalSuscribe" component={ ModalSuscribeDetails } />
+      <Route exact path="/modalBirthday" component={ ModalBirthdayDetails } />
     </Switch>
   </Layout>
   </BrowserRouter>

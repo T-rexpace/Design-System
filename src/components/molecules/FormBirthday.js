@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Input from '../../components/atoms/Input'
-import ButtonSuscribe from '../../components/atoms/ButtonSuscribe'
+import Button from '../atoms/Button'
 
 import '../../scss/molecules/FormBirthday.scss'
 
@@ -12,7 +12,7 @@ const FormBirthday = () => {
                 label="Fecha"
                 placeholder="07/05/1946"
             />
-            <ButtonSuscribe title="Consultar" />
+            <Button type="normal" title="Consultar" />
         </div>
     )
 }

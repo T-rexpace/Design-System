@@ -7,15 +7,14 @@
     color: $Color-Grayscale-1;
     align-items: center;
     background-color: $Color-Primary;
+    &__menu {
+        display: flex;
+        color: $Color-Grayscale-1;
+        align-items: center;
+        background-color: $Color-Primary;
+    }
 }
 
 .header-margin {
     margin: 0 $Spacing-Normal;
-}
-
-.header__menu {
-    display: flex;
-    color: $Color-Grayscale-1;
-    align-items: center;
-    background-color: $Color-Primary;
 }
