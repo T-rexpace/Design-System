@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/DesignSystem/static/css/main.07e12494.chunk.css",
-    "main.js": "/DesignSystem/static/js/main.a6846a8c.chunk.js",
-    "main.js.map": "/DesignSystem/static/js/main.a6846a8c.chunk.js.map",
-    "runtime-main.js": "/DesignSystem/static/js/runtime-main.61f63f6f.js",
-    "runtime-main.js.map": "/DesignSystem/static/js/runtime-main.61f63f6f.js.map",
-    "static/js/2.b7c8d71a.chunk.js": "/DesignSystem/static/js/2.b7c8d71a.chunk.js",
-    "static/js/2.b7c8d71a.chunk.js.map": "/DesignSystem/static/js/2.b7c8d71a.chunk.js.map",
-    "index.html": "/DesignSystem/index.html",
-    "precache-manifest.3f289e97c1f61f8975dc639547d2dcc2.js": "/DesignSystem/precache-manifest.3f289e97c1f61f8975dc639547d2dcc2.js",
-    "service-worker.js": "/DesignSystem/service-worker.js",
-    "static/css/main.07e12494.chunk.css.map": "/DesignSystem/static/css/main.07e12494.chunk.css.map",
-    "static/js/2.b7c8d71a.chunk.js.LICENSE.txt": "/DesignSystem/static/js/2.b7c8d71a.chunk.js.LICENSE.txt",
-    "static/media/demoAsteroide.jpg": "/DesignSystem/static/media/demoAsteroide.5828f3e7.jpg",
-    "static/media/logotipo-negativo-color-corporativo.svg": "/DesignSystem/static/media/logotipo-negativo-color-corporativo.841ef2d6.svg",
-    "static/media/regalo-de-cumpelannios.svg": "/DesignSystem/static/media/regalo-de-cumpelannios.16af73b0.svg",
-    "static/media/t-rex-asteroide-inofensivo.svg": "/DesignSystem/static/media/t-rex-asteroide-inofensivo.ad68ccd1.svg",
-    "static/media/t-rex-asteroide-peligroso.svg": "/DesignSystem/static/media/t-rex-asteroide-peligroso.42b54b71.svg",
-    "static/media/t-rex-graficas.svg": "/DesignSystem/static/media/t-rex-graficas.b6e5149b.svg",
-    "static/media/t-rex-seleccion-de-asteroides-home.svg": "/DesignSystem/static/media/t-rex-seleccion-de-asteroides-home.fa850e8b.svg"
+    "main.css": "/Design-System/static/css/main.2f91cde1.chunk.css",
+    "main.js": "/Design-System/static/js/main.98094ef8.chunk.js",
+    "main.js.map": "/Design-System/static/js/main.98094ef8.chunk.js.map",
+    "runtime-main.js": "/Design-System/static/js/runtime-main.ca819f5e.js",
+    "runtime-main.js.map": "/Design-System/static/js/runtime-main.ca819f5e.js.map",
+    "static/js/2.b7c8d71a.chunk.js": "/Design-System/static/js/2.b7c8d71a.chunk.js",
+    "static/js/2.b7c8d71a.chunk.js.map": "/Design-System/static/js/2.b7c8d71a.chunk.js.map",
+    "index.html": "/Design-System/index.html",
+    "precache-manifest.d884ea1af6b69cfcf208815c81391f8e.js": "/Design-System/precache-manifest.d884ea1af6b69cfcf208815c81391f8e.js",
+    "service-worker.js": "/Design-System/service-worker.js",
+    "static/css/main.2f91cde1.chunk.css.map": "/Design-System/static/css/main.2f91cde1.chunk.css.map",
+    "static/js/2.b7c8d71a.chunk.js.LICENSE.txt": "/Design-System/static/js/2.b7c8d71a.chunk.js.LICENSE.txt",
+    "static/media/demoAsteroide.jpg": "/Design-System/static/media/demoAsteroide.5828f3e7.jpg",
+    "static/media/logotipo-negativo-color-corporativo.svg": "/Design-System/static/media/logotipo-negativo-color-corporativo.841ef2d6.svg",
+    "static/media/regalo.svg": "/Design-System/static/media/regalo.9f313085.svg",
+    "static/media/t-rex-asteroide-inofensivo.svg": "/Design-System/static/media/t-rex-asteroide-inofensivo.98191524.svg",
+    "static/media/t-rex-asteroide-peligroso.svg": "/Design-System/static/media/t-rex-asteroide-peligroso.42134cc2.svg",
+    "static/media/t-rex-graficas.svg": "/Design-System/static/media/t-rex-graficas.f10a5525.svg",
+    "static/media/tarjetas-menu.png": "/Design-System/static/media/tarjetas-menu.35e3c4d8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.61f63f6f.js",
+    "static/js/runtime-main.ca819f5e.js",
     "static/js/2.b7c8d71a.chunk.js",
-    "static/css/main.07e12494.chunk.css",
-    "static/js/main.a6846a8c.chunk.js"
+    "static/css/main.2f91cde1.chunk.css",
+    "static/js/main.98094ef8.chunk.js"
   ]
 }
